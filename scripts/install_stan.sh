@@ -26,4 +26,5 @@ apt-get -qq update \
     tufte \
     openxlsx \
 && installGithub.r rmcelreath/rethinking \
+&& installGithub.r paul-buerkner/brms \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
