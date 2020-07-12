@@ -25,5 +25,6 @@ apt-get -qq update \
     tufte \
     openxlsx \
     remotes \
+    synthpop \
 && installGithub.r rmcelreath/rethinking \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
