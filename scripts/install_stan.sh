@@ -26,5 +26,6 @@ apt-get -qq update \
     openxlsx \
     remotes \
     synthpop \
+brms \
 && installGithub.r rmcelreath/rethinking \
 && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
