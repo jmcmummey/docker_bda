@@ -9,7 +9,6 @@ RUN /rocker_scripts/install_stan.sh
 
 RUN R -e "install.packages('kableExtra')"
 RUN R -e "remotes::install_github('stan-dev/rstantools')"
-RUN R -e "remotes::install_github('paul-buerkner/brms')"
 
 # configure 
 RUN /rocker_scripts/install_env.sh
