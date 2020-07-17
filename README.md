@@ -2,7 +2,7 @@
 
 # Dockerfile for Stan
 
-This Docker file is part of a repliation package for the manuscript on feature selection.
+This Docker file is part of a replication package for the manuscript on feature selection.
 
 ## Run via <http://hub.docker.com>
 
